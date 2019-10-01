@@ -14,15 +14,9 @@ delay(200);
 if(d>600)
 {
 digitalWrite(13,HIGH);
-
-  }
-else if(d<100)
+}
+else 
 {
-  digitalWrite(13,HIGH);
-  }
-  else
-  {
-     digitalWrite(13,LOW);
-    
-    }
+  digitalWrite(13,LOW);
+}
 }
